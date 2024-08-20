@@ -6,7 +6,8 @@
     "usb": {
         "vid": "0x706B",
         "pid": "0x0011",
-        "device_version": "0.0.1"
+        "device_version": "0.0.1",
+        "no_startup_check": true
     },
     "features": {
         "bootmagic": true,
