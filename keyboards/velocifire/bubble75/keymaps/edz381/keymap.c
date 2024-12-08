@@ -19,7 +19,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_LCTL,  KC_LGUI, KC_LALT,                       KC_SPC,                        KC_RALT, MO(FUNC),                  KC_LEFT,  KC_DOWN,  KC_RGHT),
   
   [FUNC] = LAYOUT(
-    _______,  _______, _______, _______, _______,          _______, _______, KC_MPRV, KC_MPLY,          KC_MNXT,  KC_MUTE, KC_VOLD, KC_VOLU, _______,
+    _______,  KC_BRID, KC_BRIU, _______, _______,          _______, _______, KC_MPRV, KC_MPLY,          KC_MNXT,  KC_MUTE, KC_VOLD, KC_VOLU, _______,
     _______,  _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,           _______,
     _______,  RGB_MOD, RGB_HUI, RGB_SAI, RGB_VAI, _______, _______, _______, _______, _______, RGB_M_P, RGB_M_B, RGB_M_R, _______,           _______,
     _______,  _______, RGB_HUD, RGB_SAD, RGB_VAD, _______, _______, _______, _______, _______, _______, _______, _______,                    KC_HOME,
